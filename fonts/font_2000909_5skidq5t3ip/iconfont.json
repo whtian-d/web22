@@ -1,0 +1,16 @@
+{
+  "id": "2000909",
+  "name": "web-大商创",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "3777778",
+      "name": "导航",
+      "font_class": "daohang",
+      "unicode": "e629",
+      "unicode_decimal": 58921
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+/* 公共样式 */
+*{
+    margin: 0px;
+    padding: 0px;
+    /* font-family: sans-serif; */
+}
+/* 12px字体样式 */
+.search{
+    color: #999;
+    font-size: 12px;
+}
+
+/* 鼠标变为小手 */
+img ,a{
+    cursor: pointer;
+}
+/* 14样式字体 */
+.nav_all {
+    font-size: 16px;
+}
+a{
+    text-decoration: none;
+    color:#555;
+}
+/* 部分a标签白色字体 */
+.nav_all a ,.aside a{
+    color: white;
+    
+}
+li{
+    list-style: none;
+    float: left;
+}
+
+/* 浮动 */
+.fl{
+    float: left !important;
+}
+.fr{
+    float:right !important;
+}
+.fn{
+    float: none !important;
+}
+/* 显示隐藏 */
+.hide{
+    display: none !important;
+}
+
+.show{
+    display: block !important;
+}
+.clear,.clearfix{
+    clear: both;
+}
+/* 对齐方式 */
+
+.text-justify{
+    text-align: justify !important;
+    /* 两端对齐 */
+}
+/*说明
+class类名定义
+布局                class
+1.上方地址栏        header_top
+2.logo搜索框        header
+3.中间贯穿线上部     nav_top
+4.轮播图部分       */
+
+.flashsale_tit_frame a,.goods_show_name{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 12px ;
+}

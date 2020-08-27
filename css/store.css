@@ -1,0 +1,151 @@
+.banner-img{
+    width: 100%;
+    height: 200px;
+}
+.banner-img a{
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: url(../images/1489190636366732843.jpg) no-repeat center;
+}
+/* store-body1 */
+.store-body1{
+    width: 1200px;
+    margin:20px auto 15px;
+    border:1px dashed #d2d2d2;
+}
+.store-body1>div{
+    padding: 10px 0;
+    line-height: 28px;
+}
+.body1-item1{
+    height: 28px;
+    border-bottom:1px dashed #d2d2d2;
+}
+.body1-item2{
+    border-bottom:1px dashed #d2d2d2;
+    height: 132px;
+}
+.body1-item3{
+    height: 30px;
+}
+.store-body1 .tit{
+    float: left;
+    padding-left: 30px;
+    width: 80px;
+    color: #8c8c8c;
+}
+.store-body1 .tit-value{
+    width: calc(100% - 120px);
+    float: left;
+    padding-left: 10px;
+}
+.store-body1 li{
+    float: left;
+    width: 100px;
+    margin-right: 10px;
+}
+.store-body1 .active a{
+    color:#f43434;
+}
+.body1-item3 a{
+    float: left;
+    line-height: 28px;
+    height: 28px;
+    border: 1px solid #d2d2d2;
+    text-align: center;
+    width: 78px;
+    background: #fff;
+    color: #8c8c8c;
+    margin-right: 10px;
+}
+.body1-item3 a i{
+    font-size: 12px;
+}
+.body1-item3 .tit-value .active{
+    color: #f43434;
+    border-color: #f43434;
+}
+/* body2 */
+.store-body2{
+    width: 1200px;
+    margin:15px auto 85px;
+}
+.body2-item-col{
+    width: 278px;
+    height: auto;
+    float: left;
+    margin-right: 20px;
+}
+.body2-item{
+    width: 278px;
+    height: auto;
+    border: 3px solid #e5e5e5;
+    background: #f8f8f8;
+    margin-bottom: 13px;
+    transition: all .2s;
+    position: relative;
+}
+.store-body2::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.store-body2 .mr{
+    margin-right: 0px;
+}
+.body2-item .img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.body2-item .img img{
+    width: 100%;
+}
+.body2-item .desc{
+    padding: 20px 20px 25px;
+    text-align: center;
+}
+.body2-item .desc .shop-logo{
+    display: block;
+    width: 118px;
+    height: 58px;
+    margin: 0 auto;
+    border: 1px dashed #dcdcdc;
+    background-color: #fff;
+}
+.body2-item .desc .shop-logo img{
+    width: 100%;
+    height: 100%;
+}
+.body2-item .desc .shop-name{
+    font-size: 14px;
+    color: #333;
+    font-weight: 700;
+    display: block;
+    margin: 10px 0;
+}
+.body2-item .desc .shop-name:hover{
+    color: #f43434;
+}
+.body2-item .desc p{
+    color: #8c8c8c;
+    text-align: left;
+    padding-left: 60px;
+    margin: 2px 0;
+}
+.body2-item .desc p img{
+    width: 20px;
+    vertical-align: bottom;
+}
+.body2-item .aixin{
+    font-size: 18px;
+    color: #f43434;
+    position: absolute;
+    right: 8px;
+    top: 5px;
+    z-index: 2;
+}
+.body2-item:hover{
+    border-color: #aaaaaa;
+}

@@ -1,0 +1,16 @@
+{
+  "id": "2011879",
+  "name": "icon",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "102487",
+      "name": "衣服",
+      "font_class": "yifu",
+      "unicode": "e69e",
+      "unicode_decimal": 59038
+    }
+  ]
+}

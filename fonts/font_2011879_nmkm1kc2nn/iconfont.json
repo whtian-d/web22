@@ -1,0 +1,58 @@
+{
+  "id": "2011879",
+  "name": "icon",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "367413",
+      "name": "家居家纺",
+      "font_class": "Bc_iconfont_4",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "2573811",
+      "name": "手机数码",
+      "font_class": "shoujishuma",
+      "unicode": "e683",
+      "unicode_decimal": 59011
+    },
+    {
+      "icon_id": "4073620",
+      "name": "电脑",
+      "font_class": "diannao",
+      "unicode": "eab5",
+      "unicode_decimal": 60085
+    },
+    {
+      "icon_id": "5591841",
+      "name": "服装",
+      "font_class": "fuzhuang",
+      "unicode": "e6b3",
+      "unicode_decimal": 59059
+    },
+    {
+      "icon_id": "7189253",
+      "name": "电器",
+      "font_class": "dianqi",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "11007894",
+      "name": "鞋靴",
+      "font_class": "xiexue",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    },
+    {
+      "icon_id": "12286196",
+      "name": "化妆",
+      "font_class": "huazhuang",
+      "unicode": "e63d",
+      "unicode_decimal": 58941
+    }
+  ]
+}

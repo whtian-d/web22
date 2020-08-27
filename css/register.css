@@ -1,0 +1,295 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.register-head{
+    width: 1200px;
+    height: 130px;
+    margin: auto;
+}
+.register-logo{
+    width: 430px;
+    height: 130px;
+    float: left;
+}
+.loge-img img{
+    float: left;
+    margin-top: 40px;
+}
+.loge-tittle img{
+    float: left;
+    margin-top: 35px;
+    margin-left:10px ;
+}
+.register-right{
+    width: 131px;
+    height: 130px;
+    line-height: 130px;
+    float: right;
+    font-size: 14px;
+    color: #8c8c8c;
+  }  
+  .register-right span{
+  font-size: 14px;
+  color: #8c8c8c;
+}
+.register-right a{
+    color: #f42424;
+     text-decoration: none;
+}
+.register-banner{
+    width: 100%;
+    height: 530px;
+    position: relative;
+
+}
+.register-banner-img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 530px;
+    background: url(../images/1564453243544166182.jpg) center center no-repeat;
+}
+.register-banner-right{
+    width: 350px;
+    height: 390px;
+    position: relative;
+    margin-right: 150px;
+    z-index: 4;
+    background-color: #fff;
+    float: right;
+    top: 52px;
+}
+.register-banner-right-tittle{
+    width: 270px;
+    height: 80px;
+    padding: 20px 40px 0;
+    /* position: relative; */
+}
+.register-tittle{
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    position: relative;
+    color: #555;
+  }  
+  .register-tittle h3{
+    font-size: 16px;
+    color: #8c8c8c;
+    padding: 0 15px;
+    display: inline-block;
+    position: relative;
+    z-index: 2;
+    background-color: #fff;
+  }
+  .register-tittle span{
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    top: 9px;
+    height: 1px;
+    border-bottom: 1px dashed #e5e5e5;
+  }
+.register-tittle-icon{
+    height: 36px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 0;
+}
+.register-tittle-icon a{
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+}
+.qq-icon{
+    display: block;
+    width: 36px;
+    height: 36px;
+    background: url(../images/login-icon.jpg) no-repeat;
+}
+.qq-icon:hover{
+    background: url(../images/login-icon.jpg) no-repeat;
+    background-position: -39px 0px;
+
+}
+.register-banner-right-left{
+    width: 270px;
+    height: 250px;
+    padding: 20px 40px 30px;
+    /* display: none; */
+}
+.register-banner-right-left-tittle{
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    position: relative;
+    margin-bottom: 20px;
+}
+.register-banner-right-left-tittle h3{
+    font-size: 16px;
+    color: #8c8c8c;
+    padding: 0 15px;
+    display: inline-block;
+    position: relative;
+    z-index: 2;
+    background-color: #fff;
+}
+.register-banner-right-left-tittle span{
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    top: 9px;
+    height: 1px;
+    border-bottom: 1px dashed #e5e5e5;
+}
+.from input{
+    border: 0;
+    width: 223px;
+    padding: 5px 10px 5px 35px;
+    outline: none;
+}
+.item1,.item2,.item3,.item4{
+    position: relative;
+    width: 268px;
+    height: 38px;
+    line-height: 38px;
+    border: 1px solid #d2d2d2;
+    margin-bottom: 10px;
+}
+.from i{
+    position: absolute;
+    color: #e8e8e8;
+    left: 10px;
+    top: 11px;
+    font-size: 18px;
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
+}
+.item4 input{
+    width: 270px;
+    height: 40px;
+    border: 0;
+    font-size: 16px;
+    font-weight: bold;
+    outline: 0;
+    background: #f42424;
+    border-color: #f42424;
+    color: #fff;
+    display: inline-block;
+    line-height: 23px;
+    margin-right: 5px;
+}
+.wangji{
+    color: #8c8c8c;
+    font-size: 12px;
+}
+.register-footer{
+    width: 100%;
+    height: 100px;
+    margin: auto;
+    background-color: #eee;
+}
+.register-footer-content{
+    width: 100%;
+    height: 40%;
+    color: #b5b5b5;
+    text-align: center;
+    padding: 30px 0px;
+}
+.register-footer-content-1{
+    width: 1200px;
+    height: 70px;
+    margin: auto;
+    /* display: none; */
+}
+.register-footer-content-1 p{
+    padding-bottom: 10px;
+}
+.register-footer-content-1 a{
+    text-decoration: none;
+    font-size: 12px;
+    color: rgba(85, 85, 85, .5);
+}
+.register-footer-content-1 a:hover{
+    color: red;
+}
+.item3{
+    position: relative;
+}
+.yanzhengma{
+    width: 112px;
+    height: 38px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #555;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+}
+.erweima{
+    width: 52px;
+    height: 52px;
+    line-height: 52px;
+    position: absolute;
+    right: 5px;
+    top: 8px;
+    z-index: 99;
+}
+.blank{
+    width: 0;
+    height: 0;
+    border-bottom: 52px solid #ffffff;
+    border-right: 52px solid transparent;
+    top: 0;
+    position: absolute;
+    cursor: pointer;
+}
+.erweima-1,.erweima-2{
+    width: 52px;
+    height: 52px;
+    font-size: 52px;
+    color: #f42424;
+    /* background: red; */
+}
+.erweima .erweima-2{
+    font-size: 52px;
+}
+.register-banner-right .erweima  .erweima-1{
+    font-size: 40px;
+    display: none;
+}
+.register-banner-right-left-1{
+    width: 270px;
+    height: 250px;
+    padding: 20px 40px 30px;
+    display: none;
+}
+.register-banner-right-left-1-erweima{
+    width: 270px;
+    height: 198px;
+    text-align: center;
+}
+.register-banner-right-left-1-erweima img{
+    width: 198px;
+    height: 198px;
+}
+.register-banner-right-left-1-erweima  p{
+    color: #ffffff;
+    width: 100%;
+    position: absolute;
+    top: 56px;
+    z-index: 9;
+    font-weight: 700;
+    text-align: center;
+}
+.register-banner-right-left-1 p{
+    text-align: center;
+    margin-top: 5px;
+    font-size: 12px;
+    color: #555;
+}

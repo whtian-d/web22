@@ -1,0 +1,30 @@
+{
+  "id": "2018754",
+  "name": "store_fonts",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "10856327",
+      "name": "粗箭头",
+      "font_class": "cujiantou",
+      "unicode": "e6a3",
+      "unicode_decimal": 59043
+    },
+    {
+      "icon_id": "12553445",
+      "name": "心 爱心",
+      "font_class": "xinaixin",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "15746617",
+      "name": "粗箭头",
+      "font_class": "cujiantou1",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>会员中心_大商创商城系统 B2B2C 多商户系统  多店铺商城系统 企业级电商系统</title>
+    <link rel="stylesheet" href="../css/register.css">
+    <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../fonts/font_2011865_w1ef1bwalu/iconfont.css">
+    <link rel="stylesheet" href="../fonts/font_kb2yc4wyyn/iconfont.css">
+    <link rel="stylesheet" href="../fonts/font_2011879_ac8e4h9969d/iconfont.css">
+    <link rel="stylesheet" href="../fonts/font_2011879_ftb9pfj68af/iconfont.css">
+    <script src="../js/jquery.js"></script>
+</head>
+<body>
+    <div class="register-head">
+        <div class="register-logo">
+            <div class="loge-img">
+                    <img src="../images/user_login_logo.jpg" alt="">
+            </div>
+            <div class="loge-tittle">
+                    <img src="../images/login_logo_pic.jpg" alt="">
+            </div>
+        </div>
+        <div class="register-right">
+            <span>还没有账号</span>
+            <a href="./register.1.html">免费注册</a>
+        </div>
+    </div>
+    <div class="register-banner">
+        <div class="register-banner-img">
+
+        </div>
+        <div class="register-banner-right">
+            <div class="register-banner-right-tittle">
+                <div class="register-tittle">
+                    <h3>用第三方账号直接登录</h3>
+                    <span></span>
+                </div>
+                <div class="register-tittle-icon">
+                    <a href="">
+                        <b class="qq-icon"></b>
+                    </a>
+                </div>
+                <div class="erweima">
+                    <i class="iconfont icon-credentials_icon erweima-1"></i>
+                    <i class="iconfont erweima-2 icon-qrcode1"></i>
+                    <div class="blank"></div>
+                </div>
+            </div>
+
+            <div class="register-banner-right-left">
+                <div class="register-banner-right-left-tittle">
+                    <h3>账号登录</h3>
+                    <span></span>
+                </div>
+                <div class="from">
+                    <form method="get" action="">
+                        <div class="item1">
+                            <i class="iconfont  icon-yonghu"></i>
+                            <input type="text" placeholder="用户名/邮箱/手机">
+                        </div>
+                        <div class="item2">
+                            <i class="iconfont icon-mima"></i>
+                            <input type="text" placeholder="密码">
+                        </div>
+                        <div class="item3">
+                            <i class="iconfont icon-yanzhengma"></i>
+                            <input type="text" placeholder="验证码">
+                            <div class="yanzhengma">
+                                    whyz
+                            </div>
+                        </div>
+                        <div class="item4">
+                            <input type="button" value="登录">
+                        </div>
+                        <div class="wangji">
+                            <span>忘记密码？</span>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="register-banner-right-left-1">
+                <div class="register-banner-right-left-tittle">
+                    <h3>扫码登录</h3>
+                    <span></span>
+                </div>
+                    <div class="register-banner-right-left-1-erweima">
+                        <img src="../images/erweima.jpg" alt="">
+                        <!-- <p>二维码已失效</p> -->
+                    </div>
+                    <p>打开<span>大商创App</span>扫描二维码</p>
+            </div>
+        </div>
+    </div>
+    <div class="register-footer">
+        <div class="register-footer-content">
+            <div class="register-footer-content-1">
+                <p>
+                    <a href="#">首页</a>|
+                    <a href="#">隐私保护</a>|
+                    <a href="#">联系我们</a>|
+                    <a href="#">免责条款</a>|
+                    <a href="#">公司简介</a>|
+                    <a href="#">商家入驻</a>|
+                    <a href="#">供应商入驻</a>|
+                    <a href="#">意见反馈</a>|
+                </p>
+                <p>
+                    <a href="#">b2b2c</a>|
+                    <a href="#">多用户商城系统</a>|
+                    <a href="#">商城系统</a>|
+                    <a href="#">ecjia新零售</a>|
+                </p>
+            </div>
+        </div>
+    </div>
+    <script>
+        $(function(){
+            var flag=1;
+            $('.erweima').click(function(e){
+                if(flag==1){
+                $('.register-banner-right-left').hide();
+                $('.register-banner-right-left-1').show()
+                $('.erweima .erweima-2').hide()
+                $('.erweima .erweima-1').show()
+                flag=0;
+            }
+            else{
+                $('.register-banner-right-left').show();
+                $('.register-banner-right-left-1').hide()
+                $('.erweima .erweima-1').hide()
+                $('.erweima .erweima-2').show()
+                flag=1
+            }
+                
+                e.preventDefault();
+
+            })
+          
+        })
+    </script>
+</body>
+</html>

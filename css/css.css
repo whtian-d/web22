@@ -1,0 +1,472 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.disable {
+    width: 300px;
+    height: 100%;
+    background-color: #000000;
+    position: fixed;
+    right: -261px;
+    bottom: 0;
+    z-index: 999;
+}
+
+.disable-le-01 {
+    width: 40px;
+    height: 100%;
+    float: left;
+}
+
+.disable-ri-01 {
+    width: 260px;
+    height: 100%;
+    float: left;
+    background-color: #ECEAEA;
+    position: relative;
+}
+
+.disable-le-001 {
+    width: 40px;
+    height: 80%;
+    margin: auto 0;
+    margin-top: 100px;
+}
+
+.disable-le-001-i {
+    width: 40px;
+    height: 40px;
+    background-color: #B31919;
+    background: url("../images/jlt.png") no-repeat 10px 17px;
+    position: relative;
+}
+
+.username {
+    width: 240px;
+    height: 200px;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: -260px;
+    display: none;
+    padding: 10px;
+}
+
+.username-img {
+    width: 120px;
+    height: 120px;
+    background: url(../images/touxiang.jpg) no-repeat;
+    float: left;
+    border-radius: 50%;
+}
+
+.username-text {
+    height: 50px;
+    font-size: 12px;
+    float: left;
+    margin-left: 5px;
+    padding-top: 70px;
+}
+
+.username-x {
+    width: 100%;
+    border-top: 1px dashed #CCCCCC;
+    margin-top: 20px;
+}
+
+.account-btn {
+    width: 100%;
+    height: 40px;
+    background-color: #F42424;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    font-size: 20px;
+}
+
+.username-btn {
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+}
+
+.username-btn button {
+    border: none;
+    width: 80px;
+    height: 30px;
+    border-bottom: 2px solid #8C8C8C!important;
+    font-size: 12px;
+}
+
+.disable-le-001-cart {
+    width: 30px;
+    height: 135px;
+    padding: 10px 5px;
+    margin-top: 10px;
+}
+
+.disable-le-001-somei ul {
+    list-style: none;
+}
+
+.disable-le-001-top {
+    width: 40px;
+    height: 83px;
+    position: absolute;
+    bottom: 0;
+    margin-top: 10px;
+    padding-top: 16px;
+}
+
+.disable-ri-01-first {
+    width: 100%;
+    height: 35px;
+    background: url("../images/jlt.png") no-repeat 10px -164px;
+    position: relative;
+    position: absolute;
+    bottom: 0;
+}
+
+.disable-ri-01-second {
+    width: 100%;
+    height: 35px;
+    margin-top: 30px;
+    position: relative;
+    display: none;
+    background: url("../images/jlt.png") no-repeat 13px -192px;
+}
+
+.disable-le-001-somei ul li {
+    width: 40px;
+    height: 40px;
+    margin-top: 15px;
+    position: relative;
+}
+
+.disable-le-001-somei ul li:first-child {
+    background: url("../images/侧边栏小图标1.png");
+    background-size: cover;
+}
+
+.disable-le-001-somei ul li:nth-child(2) {
+    background: url("../images/jlt.png") no-repeat -24px 15px;
+}
+
+.disable-le-001-somei ul li:nth-child(3) {
+    background: url("../images/jlt.png") no-repeat 10px -46px;
+}
+
+.disable-le-001-somei ul li:nth-child(4) {
+    background: url("../images/jlt.png") no-repeat 10px -102px;
+}
+
+.disable-le-001-somei ul li:nth-child(5) {
+    background: url("../images/侧边栏小图标2.png");
+    background-size: cover;
+}
+
+.disable-le-001-somei ul li:nth-child(6) {
+    background: url("../images/侧边栏小图标3.png");
+    background-size: cover;
+}
+
+.disable-le-001-cart-first {
+    width: 100%;
+    height: 30px;
+    background: url("../images/jlt.png") no-repeat 6px -27px;
+}
+
+.disable-le-001-cart-second {
+    width: 78%;
+    height: 70px;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    margin-left: 3px;
+}
+
+.disable-le-001-cart-three {
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    color: white;
+    background-color: red;
+    line-height: 30px;
+    border-radius: 50%;
+}
+
+.disable-le-001-somei-01 {
+    width: 100px;
+    height: 40px;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: -110px;
+    position: relative;
+    display: none;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    font-size: 12px;
+}
+
+.yd {
+    width: 15px;
+    height: 15px;
+    background-color: black;
+    position: absolute;
+    right: -4px;
+    top: 10px;
+    transform: rotate(45deg)
+}
+
+.disable-ri-01-nav {
+    width: 100%;
+    height: 40px;
+    background-color: #EFEFEF;
+    padding: 5px 10px;
+}
+
+.disable-ri-01-nav-left {
+    width: 100px;
+    height: 30px;
+    float: left;
+    text-align: left;
+    font-size: 16px;
+    line-height: 35px;
+}
+
+.disable-ri-01-nav-right {
+    width: 30px;
+    height: 30px;
+    background-color: #B31919;
+    float: left;
+    margin-left: 110px;
+    background: url("../images/jlt.png") no-repeat 6px -265px;
+}
+
+.disable-ri-01-footer {
+    width: 100%;
+    height: 80px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: #fff;
+}
+
+.disable-ri-01-footer-top {
+    width: 240px;
+    height: 20px;
+    padding: 10px 10px;
+}
+
+.disable-ri-01-footer-top span {
+    font-size: 12px;
+    color: #868686;
+}
+
+.number-01 {
+    color: #F42424!important;
+    font-size: 14px!important;
+}
+
+
+/* mask */
+
+.login-making {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, .5);
+    z-index: 9999;
+    display: none;
+}
+
+.login-html {
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    margin: 100px auto;
+}
+
+.login-html-head {
+    width: 380px;
+    height: 32px;
+    padding: 10px;
+    text-align: center;
+    line-height: 32px;
+    background-color: #F3F3F3;
+}
+
+.login-html-head span:nth-child(1) {
+    font-size: 14px;
+    display: inline-block;
+    float: left;
+}
+
+.close {
+    float: right;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.login-html-body {
+    width: 380px;
+    height: 429px;
+    padding: 10px;
+}
+
+.login-html-body-one {
+    width: 330px;
+    height: 75px;
+    padding: 20px 25px 0px 25px;
+    position: relative;
+    text-align: center;
+}
+
+.login-html-body-one-title {
+    width: 180px;
+    height: 20px;
+    position: absolute;
+    color: #ACACAC;
+    top: 10px;
+    background-color: white;
+    left: 98px;
+}
+
+.login-html-body-one-title-logo {
+    width: 330px;
+    height: 40px;
+    position: absolute;
+    bottom: 0;
+}
+
+.login-html-body-one-title-logo-gb {
+    width: 36px;
+    height: 36px;
+    margin: 0 auto;
+    background: url(../images/login-icon-qq.png) no-repeat;
+}
+
+.login-html-body-one-title-hx {
+    width: 330px;
+    border-top: 1px dashed #ACACAC;
+}
+
+.login-html-body-two {
+    width: 330px;
+    height: 300px;
+    padding: 20px 25px 0px 25px;
+    position: relative;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.login-html-body-two-title {
+    width: 100px;
+    height: 20px;
+    position: absolute;
+    color: #ACACAC;
+    top: 10px;
+    background-color: white;
+    left: 137px;
+}
+
+.login-html-body-two-mai {
+    width: 270px;
+    height: 250px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.login-html-body-two-mai-item {
+    width: 270px;
+    height: 30px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.item-text {
+    height: 30px;
+    width: 270px;
+}
+
+.item-random {
+    width: 120px;
+    height: 33px;
+    position: absolute;
+    top: 0;
+    right: -3px;
+    background-color: skyblue;
+    color: white;
+    text-align: center;
+    line-height: 33px;
+}
+
+.login-html-body-two-mai-item-01 {
+    text-align: left;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.login-html-body-two-mai-item-01 input {
+    display: none;
+}
+
+.login-html-body-two-mai-item-01 label {
+    background: url(../images/checkbox.png) no-repeat 0 2px;
+    padding-left: 20px;
+    text-align: center;
+}
+
+.login-html-body-two-mai-item-01 label:hover {
+    color: #F42424;
+}
+
+.item-btn {
+    width: 274px;
+    height: 30px;
+    background-color: #F42424;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.lie {
+    width: 270px;
+    height: 20px;
+    text-align: left;
+}
+
+.lie a:hover {
+    color: #F44142;
+}
+
+.lie a {
+    text-decoration: none;
+    font-size: 12px;
+    color: black;
+}
+
+.lie a:last-child {
+    float: right;
+    color: #F44142;
+}
+
+.smallcheck label {
+    background: url(../images/checkbox.png) no-repeat;
+    padding-left: 25px;
+    padding-top: 1px;
+    background-position: 5px 3px;
+    font-size: 12px;
+    text-align: right;
+}
+
+.bachecked {
+    background: url(../images/checked.png) no-repeat 0 2px !important;
+}

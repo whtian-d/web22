@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Tstore-nav{
+    width: 100%;
+    border-bottom: 2px solid red;
+}
+.Tstore-content{
+    width: 100%;
+    height: 1400px;
+}
+.Tstore-content-banner{
+    position: relative;
+    width: 1200px;
+    margin: auto;
+    /* float: left; */
+    height: 280px;
+}
+.Tstore-content-banner-img{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.Tstore-content-banner-img img{
+    width: 1200px;
+    height: 280px;
+}
+.Tstore-content-banner-nav{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 180px;
+    background: #333;
+    height: 280px;
+    z-index: 9;
+}
+body .header-main .logo{
+    float: left;
+    width: 232px;
+    /* text-align: none ! important; */
+    position: relative;
+    height: 94px;
+}
+.Tstore-content-banner-nav-item{
+    border-bottom: 1px dotted #555;
+    height: 39px;
+    float: left;
+    color: #fff;
+    cursor: pointer;
+}
+.banner-nav-item-content{
+    width: 134px;
+    padding: 8px 16px 8px 30px;
+    float: left;
+}
+.banner-nav-item-content i{
+    width: 16px;
+    float: left;
+    height: 24px;
+    margin-top: 3px;
+}
+.Tstore-content .banner-nav-item-content-tittle strong{
+    display: block;
+    font-weight: normal;
+    width: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    float: left;
+    margin-left: 15px;
+    font-size: 16px;
+}
+.Tstore-content-banner-nav-item:hover{
+    background: red;
+}
+.Tstore-content-shop{
+    width: 100%;
+    height: 430px;
+    background: #F8F8F8;
+    padding: 40px 0;
+    float: left;
+}
+.Tstore-content-shop-content{
+    width: 1200px;
+    height: 520px;
+    margin: auto;
+}
+.Tstore-content-shop-content-tittle{
+    height: 42px;
+    line-height: 42px;
+    margin-bottom: 20px;
+}
+.Tstore-content-shop-content-tittle h2{
+    float: left;
+    font-size: 28px;
+    color: #555;
+    padding-left: 40px;
+    background: url(../images/crazy-icon.png) no-repeat left center;
+}
+.Tstore-content-shop-content-goods{
+    width: 1200px;
+    height: 360px;
+}
+.gooods{
+    width: 240px;
+    height: 363px;
+    margin-right: 10px;
+    background: #fff;
+    float: left;
+}
+.gooods:hover{
+    transform: translate3d(0,-3px,0);
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.15);
+    transition: all .3s;
+}
+.gooods img{
+    display: block;
+    margin-bottom: 5px;
+}
+.price{
+    color: #f43434;
+    font-size: 21px;
+    text-align: center;
+}
+.goods-content{
+    display: block;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0 10px 10px;
+    font-size: 14px;
+    color: #555;
+}
+.time{
+    margin: 10px;
+    vertical-align: middle;
+}
+.time i{
+    margin-right: 5px;
+}
+.buy{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    color: #fff;
+    background: #f43434;
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+}
+.time span{
+    margin-left: 5px;
+    color: #555;
+}
+.Tstore-content-shop-2{
+    width: 100%;
+    height: 430px;
+    /* background: #F8F8F8; */
+    padding: 40px 0;
+    float: left;
+}
+.Tstore-content-shop-2 a{
+    margin-top: 20px;
+    display: block;
+    border: 1px solid #d2d2d2;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+.Tstore-content-shop-2 a:hover{
+    background:#d2d2d2 ;
+}

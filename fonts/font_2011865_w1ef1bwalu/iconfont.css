@@ -1,0 +1,21 @@
+@font-face {font-family: "iconfont";
+  src: url('iconfont.eot?t=1597665479433'); /* IE9 */
+  src: url('iconfont.eot?t=1597665479433#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAQ8AAsAAAAACGwAAAPtAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCCcAqEeIN/ATYCJAMICwYABCAFhG0HMBslB1GUDU6L7KNw3CuL1iabIR6DMlH+V/mPCL7fj/2e+y6qSTXSPZlXEkkrJUELNI1MF8/yJfT38zbn+7lgHgE/VDXmx6FTUtEJc6n6RDt2Et3qE/dOm+LznXc5rrXpX/ypCzAOpIDGXpZggQTmATeM3UTQEFcTqNXDA1pMyigATRnoFIgjAa8WNDNGuYEYqoXKipEZ4pKa6nQ3PQdwwT8f/8AvNEFSUQDI2zhMZEPMNxXmFMpSqYJSiKazwxhHgSkgEzuVzjVYlJyCqfWSVANgW8TgO5clFW72h0cQlQCU9TKzS3hNIiy+VP4EMpX5Av4PegnFC1a0LFIh/e5uhLpHLFbCD4qdZ5x3FrSZPSrz8Y9u3YzlcSZS9TCZjH6VxcgFE8X27m5mfrYeHZ2dwA8foG7OqoveNzZo2qlD74L3AFCOenTSZt/jvX1AvzcXOOXo+CF0z7NviAbKTpp2d7dK3Q/1DJvPu+0nOU07Pdzv7O63mPjk3sMcGGGgbgZjE/aBYfOoT79597zT/sePDrSurk6aWmvRFHo/mEFXLw1l/lmkAuWQWRd97oNtXy+tczdh0sHhMmTWpXcQwKDoPr3oHvidJoNX8jlNJrX8f1zJVbwOK277uQJhyBjLd4sr/rI0O0VB+isFUFOVkRWk8IUeAUK0cKb60sVYjVMolFilnihSHaV2uGuEUZxc1JBdQQVDC2FTs0NfeK5x+SaIYkJRPN+OYyXqXpX4/U9TY2j2na3J5wznNYcrkc9D7Uf+04747UixRYC5e7lP5t2X9772UTFk538kRubmdkjNRfwrNsrGS4zisV9KE8vIwJUntpdulDRIXsIY6gf8WwCiou+n9XOLT6bIwtzBXey5nX99r/md9oMvUj+6+o58QAGzAOVe8QLb/9vfcXLtl1BtEPFPs44K8HnQ9oj7y70M3dyg+p24gn8r6liQfQkwpeyKKrPJF+ydyWthhBKAt9Xnoe4OkNhDtSmSkVTpRqHaEDUzp1ChzjQqVZtBrUnJ4+u0IWAiawETbkoIzVaQNLpHodkLamZeoUKnb6jUHBhq7YXJjHVGQqAdT3BqSQ4br2vBBSyZlIsspLYg5nF4DeJaIi3hrCIOUS+I4L5ePvlMMkfKIaboU9/I8yNJLs4lZBI8SVqPIxbLcDkhE3JYpBefJOVh3t7cqid5sWQS0LaAwFGLxMGGq9MCJ8AiI8WlpUnahffn4eBpIFaLaCD1BItwEOoJqsf58uLTgZqslHYi3co59Rrx+CGRuHBcBBkJXJJk5xDDpAxOXt1MiIOF5IU/IC4Xxlspxu2q9FpeLXm7ZVAL6FLARhhUnsukPH4DAAAAAA==') format('woff2'),
+  url('iconfont.woff?t=1597665479433') format('woff'),
+  url('iconfont.ttf?t=1597665479433') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('iconfont.svg?t=1597665479433#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-yonghu:before {
+  content: "\e604";
+}
+

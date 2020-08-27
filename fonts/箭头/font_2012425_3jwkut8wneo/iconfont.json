@@ -1,0 +1,23 @@
+{
+  "id": "2012425",
+  "name": "项目1",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "608349",
+      "name": "箭头",
+      "font_class": "jiantouarrow484",
+      "unicode": "e6a8",
+      "unicode_decimal": 59048
+    },
+    {
+      "icon_id": "668860",
+      "name": "关闭",
+      "font_class": "guanbi",
+      "unicode": "e676",
+      "unicode_decimal": 58998
+    }
+  ]
+}

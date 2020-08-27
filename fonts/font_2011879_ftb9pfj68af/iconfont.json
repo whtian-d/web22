@@ -1,0 +1,23 @@
+{
+  "id": "2011879",
+  "name": "icon",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "9210033",
+      "name": "身份证",
+      "font_class": "credentials_icon",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "12154988",
+      "name": "二维码",
+      "font_class": "qrcode1",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    }
+  ]
+}

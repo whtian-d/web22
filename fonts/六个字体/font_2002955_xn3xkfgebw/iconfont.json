@@ -1,0 +1,58 @@
+{
+  "id": "2002955",
+  "name": "web",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "16542931",
+      "name": "富文本编辑器_缩进",
+      "font_class": "fuwenbenbianjiqi_suojin",
+      "unicode": "e655",
+      "unicode_decimal": 58965
+    },
+    {
+      "icon_id": "15983702",
+      "name": "分类",
+      "font_class": "fenlei",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    },
+    {
+      "icon_id": "16546775",
+      "name": "客服-X",
+      "font_class": "kefu-X",
+      "unicode": "e618",
+      "unicode_decimal": 58904
+    },
+    {
+      "icon_id": "15838424",
+      "name": "add",
+      "font_class": "add",
+      "unicode": "e664",
+      "unicode_decimal": 58980
+    },
+    {
+      "icon_id": "15838479",
+      "name": "fabulous",
+      "font_class": "fabulous",
+      "unicode": "e66f",
+      "unicode_decimal": 58991
+    },
+    {
+      "icon_id": "15838564",
+      "name": "arrow-down-bold",
+      "font_class": "arrow-down-bold",
+      "unicode": "e686",
+      "unicode_decimal": 59014
+    },
+    {
+      "icon_id": "2380637",
+      "name": "购物车",
+      "font_class": "gouwuche",
+      "unicode": "e60c",
+      "unicode_decimal": 58892
+    }
+  ]
+}
